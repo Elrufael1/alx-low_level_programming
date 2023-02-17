@@ -1,9 +1,9 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+#include <time.h>
+/* more header goes here. */
 
-/* betty style doc for function main goes there */
+
 /**
  * main - Entry point
  * Description: if-else program.
@@ -15,13 +15,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	/* your code goes here */
 	if (n > 0)
-	       printf("%i is positive\n", n);
+		printf("%i is positive\n", n);
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
 		printf("%i is negative\n", n);
 	return (0);
 }
-
